@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* 컴포넌트 공통*/
+#contenteBody {
+    width: calc(100% - 100px);
+    margin-left: 50px;
+}
+
+.logoImg {
+    width: 300px;
+}

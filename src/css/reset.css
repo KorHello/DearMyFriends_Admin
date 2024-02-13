@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* reset.css */
+
+
+
+body{ -ms-overflow-style: none; }
+::-webkit-scrollbar { display: none; }
+
+html,body{width:100%;height:100%;}
+body,div,dl,dt,dd,ul,li,ol,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,table,caption,tbody,tfoot,thead,tr,summary,
+
+small,b,i,article,canvas,details,figcaption,figure,header,footer,hgroup,menu,nav,section,time,mark,audio,video,br,hr{margin:0;padding:0;}
+
+article,aside,details,figcaption,figure,footer,header,menu,nav,section,video{display:block;}
+
+table{border-collapse:collapse;border-spacing:0;}
+img,fieldset{border:0;}
+address,caption,cite,code,em,strong,th{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%;}
+q:after,q:before{content:"";}
+abbr,acronym{border:none;}/* 두문자어,축약어 */
+input{vertical-align:middle;}
+hr{display:none;}
+#skipNavi, .blind{position:absolute;left:0;top:0;width:0;height:0;font-size:0;line-height:0;text-indent:-9999px;overflow:hidden;visibility:hidden;}
+li img,dd img{vertical-align:top;}
+img{max-width:100%;}
+hr{display: none}
+/* width값이 %로 된 이미지들이 브라우저 폭이 줄 경우 비례에 맞게 줄어든다. */
+select { border-radius:0; /* 아이폰 사파리 보더 없애기 */ -webkit-appearance:none; /* 화살표 없애기 for chrome*/ -moz-appearance:none; /* 화살표 없애기 for firefox*/ appearance:none /* 화살표 없애기 공통*/ }

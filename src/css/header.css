@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.headerBox {
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid cornflowerblue;
+}
+
+.headerTitle {
+    font-size: 30px;
+    font-weight: bold;
+    color: #282c34;
+    margin: 20px 20px 0 20px;
+}
+
+.subTitle {
+    font-size: 15px;
+    color: #666666;
+    margin: 20px 20px 0 20px;
+}

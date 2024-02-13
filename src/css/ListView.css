@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.listTBMain {
+    display: inline-block;
+    margin-top: 10px;
+    height: 600px;
+    overflow: auto;
+}
+
+th, td {
+    text-align: center;
+}
+
+.listTBMain > thead > tr {
+    border-bottom: 1px solid lightblue;
+    height: 48px;
+}
+
+.thCnt {
+    width: 100px;
+}
+
+.thTitle {
+    width: 500px;
+}
+
+.thWriter {
+    width: 300px
+}
+
+.listTBMain > tbody > tr {
+    height: 50px;
+}

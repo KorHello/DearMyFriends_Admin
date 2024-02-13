@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.actionBtn {
+    margin: 20px 0 0 0;
+    width: 150px;
+    height: 36px;
+    background-color: white;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+}
+
+.actionBtn:hover {
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
